@@ -1,0 +1,70 @@
+section.formulario {
+  width: 100%;
+  padding: 64px;
+  background: var(--azul-10, #eaf2fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+section.formulario .formulario-container {
+  width: 100%;
+  max-width: var(--max-width-container);
+  gap: 112px;
+  display: flex;
+}
+
+.formulario-container .form-cont-img {
+  width: 176px;
+}
+
+.formulario-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contacto-campos textarea,
+.contacto-campos input,
+.contacto button {
+  font-size: 16px;
+  border: none;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 560px;
+  width: 100%;
+  align-items: start;
+}
+
+.contacto h2{
+  font-weight: 700;
+}
+
+.contacto button{
+  padding: 16px;
+  background-color: var(--azul-100, #2A7AE4);
+  color: white;
+}
+
+.contacto-campos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.contacto-campos input {
+  padding: 0px 12px;
+  height: 56px;
+}
+
+.contacto-campos textarea {
+  padding: 16px 12px;
+  height: 82px;
+  resize: none;
+}
